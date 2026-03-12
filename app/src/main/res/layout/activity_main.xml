@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:backround="@color/teal_200">
+
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome To my App"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/imagProfile"
+        android:layout_width="match_parent"
+        android:layout_height="169dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="profile image"
+        android:src="@drawable/screenshot" />
+
+    <Button
+        android:id="@+id/btnShowImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Image" />
+
+
+</LinearLayout>
